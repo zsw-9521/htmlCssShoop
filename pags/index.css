@@ -1,0 +1,142 @@
+  body {
+            font: 12px/1.3 "Microsoft YaHei", Tahoma, Helvetica, Arial, "SimSun", sans-serif;
+        }
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+ a:hover{
+  color: red;
+}
+/* 解决浮动问题 */
+   .clear::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+
+/* 顶部导航 */
+.top-Nav{
+  background-color: #eee;
+}
+/* 版心 */
+.top-Nav .Nav{
+  width: 1200px;
+  /* border: 1px solid green; */
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* 设置浮动 */
+.Nav .Nav-left{
+float: left;
+}
+.Nav ul{
+float: right;
+}
+.Nav ul li{
+float: left;
+ }
+ /* 设置边框 */
+.Nav a{
+   border-right: 1px solid #B3AEAE;
+ }
+ .Nav .no-Bott{
+   border: 0;
+ }
+ /* 内边距 */
+.Nav-left a{
+   padding: 0 5px;
+ }
+.Nav ul a{
+   padding: 0 10px;
+ }
+
+
+ /* logo seek */
+ /* 版心 */
+.cen-Nav{
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+  /* border: 1px solid green; */
+}
+.cen-Nav div{
+  width: 250px;
+  height: 110px;
+ line-height: 110px;
+ text-align: center;
+float: left;
+}
+/* 图片局中 */
+.cen-Nav div img{
+  vertical-align: middle;
+
+}
+
+
+/* 搜索右浮动 */
+.cen-Nav form{
+  float: right;
+  width: 558px;
+  height: 110px;
+  line-height: 110px;
+
+  
+}
+
+.cen-Nav form input{
+  width: 490px;
+  height: 32px;
+  border: 2px solid #EA4A36;
+  box-sizing: border-box;
+  border-right-style:none ;
+  vertical-align: middle;
+  outline: none;
+}
+.cen-Nav form  button{
+  width: 68px;
+  height: 32px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #EA4A36;
+  border: 0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+/* 底部导航 foot */
+#header .foot{
+  border-bottom: 2px solid #E1251B;
+}
+.foot .foot-Nav{
+  width: 1200px;
+
+  margin: 0 auto;
+  height: 46px;
+  line-height: 46px;
+}
+.foot-Nav ul li{
+  float: left;
+  font-size: 16px;
+  padding: 0 22px;
+}
+.foot-Nav ul li.Nav-Li{
+  width: 210px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #E1251B;
+  text-align: center;
+padding-left: 0px;
+padding-right: 0px;
+}
+
